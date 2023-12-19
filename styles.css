@@ -1,0 +1,19 @@
+/* Styles for the body */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styles for the clock container */
+.clock-container {
+    position: relative;
+}
+
+/* Styles for the clock canvas */
+#clockCanvas {
+    border: 1px solid #333;
+    border-radius: 50%;
+}
